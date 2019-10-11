@@ -43,7 +43,7 @@ export default class API {
   static Login() {
     return new Promise((resolve, reject) => {
       PDK.init({
-        appId: "4927694653406329461", // Change this
+        appId: "5060029690656371040", // Change this
         cookie: true
       });
       PDK.login({scope: 'read_public, write_public'}, ({session}) => {

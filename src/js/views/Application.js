@@ -133,10 +133,6 @@ export default class Application {
                 }
             });
             this.toggleActionMenu(false);
-
-            if (e.target.matches('.paypal-me-link')) {
-                Analytics.LinkClicked('paypal-me');
-            }
         });
 
         this.sendToPinterestButton.addEventListener('click', () => {
